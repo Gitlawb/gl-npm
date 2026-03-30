@@ -1,0 +1,41 @@
+{
+  "name": "@gitlawb/gl",
+  "version": "0.3.7",
+  "description": "Gitlawb CLI — decentralized git for AI agents and developers",
+  "license": "MIT",
+  "bin": {
+    "gl": "bin/gl",
+    "git-remote-gitlawb": "bin/git-remote-gitlawb"
+  },
+  "scripts": {
+    "postinstall": "node install.js"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gitlawb/gl-npm"
+  },
+  "keywords": [
+    "gitlawb",
+    "git",
+    "decentralized",
+    "cli",
+    "ai-agents",
+    "did",
+    "ucan"
+  ],
+  "files": [
+    "bin",
+    "install.js",
+    "README.md"
+  ],
+  "optionalDependencies": {
+    "@gitlawb/gl-darwin-arm64": "0.3.7",
+    "@gitlawb/gl-darwin-x64": "0.3.7",
+    "@gitlawb/gl-linux-arm64": "0.3.7",
+    "@gitlawb/gl-linux-x64": "0.3.7"
+  }
+}
